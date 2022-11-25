@@ -8365,7 +8365,6 @@ function render$1(_ctx, _cache, $props, $setup, $data, $options) {
       key: item.id,
       class: "video-item"
     }, [createElementVNode("video", {
-      controls: "",
       autoplay: "",
       playsinline: "",
       ref_for: true,
@@ -8404,11 +8403,11 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z$1 = "\n.video-list[data-v-41044b41] {\r\n        background: whitesmoke;\r\n        height: auto;\r\n        display: flex;\r\n        flex-direction: row;\r\n        justify-content: center;\r\n        flex-wrap: wrap;\n}\n.video-list div[data-v-41044b41] {\r\n            padding: 0px;\n}\n.video-item[data-v-41044b41] {\r\n        background: #c5c4c4;\r\n        display: inline-block;\n}\r\n";
+var css_248z$1 = "\n.video-list[data-v-8f41aa66] {\r\n        background: whitesmoke;\r\n        height: auto;\r\n        display: flex;\r\n        flex-direction: row;\r\n        justify-content: center;\r\n        flex-wrap: wrap;\n}\n.video-list div[data-v-8f41aa66] {\r\n            padding: 0px;\n}\n.video-item[data-v-8f41aa66] {\r\n        background: #c5c4c4;\r\n        display: inline-block;\n}\r\n";
 styleInject(css_248z$1);
 
 script$1.render = render$1;
-script$1.__scopeId = "data-v-41044b41";
+script$1.__scopeId = "data-v-8f41aa66";
 
 var script = /*#__PURE__*/defineComponent({
   name: 'VueWebrtcSample',
